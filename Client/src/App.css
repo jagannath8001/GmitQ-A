@@ -1,0 +1,263 @@
+/*******************************/
+/********* Main Component CSS **********/
+/*******************************/
+.App {
+  text-align: center;
+  /* background-color: aqua;
+  block-size: 720px; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body .bg-dark {
+  background-color: rgb(59, 59, 56) !important;
+}
+
+.form-main{
+  background-color: rgb(196, 212, 212);
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-left: 350px;
+  padding-left: 110px;
+  margin-right: 350px;
+  box-shadow: 0px 13px 10px  -7px rgba(0,0,0,0.1);
+ 
+}
+.icon{
+  background-color: rgb(196, 212, 212);
+  border-radius: 12px;
+  margin-top: 50px;
+  padding-left: px;
+ 
+  box-shadow: 0px 13px 10px  -7px rgba(0,0,0,0.1);
+
+}
+/* .form-main:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform: scale(1.05, 1.05);
+
+} */
+.google {
+  margin-top: 25px;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
+  border: 2px solid beige;
+  border-radius: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: beige;
+}
+.hstyle {
+  text-align: center;
+  color: #c4d5db;
+  font-size: 20px;
+}
+.hstyle:hover{
+  color: rgb(215, 224, 83);
+}
+
+.expert{
+  border-radius: 0px;
+  text-align: left;
+  margin-left: 20px;
+  background-color: rgb(253, 253, 253);
+}
+.team-img {
+  position: relative;
+  font-size: 0;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.team-img img {
+  width: 100%;
+  height: 20%;
+}
+/*******************************/
+/*********exter Component CSS **********/
+/*******************************/
+.expert-text {
+  padding: 150px 15px 30px 15px;
+  margin-top: -130px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  transition: .3s;
+}
+
+.expert-text:hover {
+  background: #FFD662;
+  border: 1px solid #FFD662;
+}
+
+.expert-text h2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #00539C;
+}
+
+.expert-text h3 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.expert-social {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+.expert-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  padding: 11px 0 10px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.expert-social a.social-tw {
+  background: #00acee;
+}
+
+.expert-social a.social-fb {
+  background: #3b5998;
+}
+
+.expert-social a.social-li {
+  background: #0e76a8;
+}
+
+.expert-social a.social-in {
+  background: #3f729b;
+}
+
+.expert-social a.social-yt {
+  background: #c4302b;
+}
+
+.expert-social a:last-child {
+  margin-right: 0;
+}
+
+.expert-social a:hover {
+  color: #ffffff;
+  background: #9c0056;
+}
+.img-size {
+  border: aliceblue;
+}
+div Form Form.Row Form.Group a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media (max-width: 1000px){
+  .form-main {
+    float: none;
+    margin: 5%;
+    width: 90%;
+  }
+  }
+  /*******************************/
+/********* Footer CSS **********/
+/*******************************/
+
+/* .footer{
+  border-radius: 0px;
+  text-align: left;
+  margin-left: 20px;
+  background-color: rgb(147, 212, 228);
+} */
+
+/* .expert .footer-menu {
+  position: relative;
+  padding: 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.expertr .footer-menu .f-menu {
+  font-size: 0;
+  text-align: center;
+}
+
+.expert .footer-menu .f-menu a {
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #ffffff;
+}
+
+.expert .footer-menu .f-menu a:hover {
+  color: #FFD662;
+}
+
+.expert .footer-menu .f-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+} */
+
+
+
+/*******************************/
+/********* About Component CSS **********/
+/*******************************/
+  
+.para {
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+
+
+/*******************************/
+/********* Login Component CSS **********/
+/*******************************/
+
+/* .body{
+  background-color:(215, 224, 83);
+} */
